@@ -1,0 +1,311 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    -webkit-tap-highlight-color: transparent ;
+}
+
+button , a {
+    cursor: pointer ;
+}
+
+header {
+    height: 15vh ;
+    width: 100vw ;
+    align-items: center ;
+    justify-content: center ;
+    display: flex ;
+    overflow-x: hidden ;
+}
+
+
+.interface-header {
+    width: 100% ;
+    height: 95% ;
+    align-items: center ;
+    justify-content: center ;
+    display: flex ;
+    flex-direction: column ;
+}
+
+.div-headerOne {
+    width: 95% ;
+    height: 55% ;
+    display: flex ;
+}
+
+.div-logo {
+    flex: 20% ;
+    height: 100% ;
+    align-items: center ;
+    justify-content: start ;
+    display: flex ;
+}
+
+.div-logo img {
+    width: 80% ;
+}
+
+.div-nav {
+    flex: 60% ;
+    height: 100% ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+
+.navbar ul{
+    display: flex ;
+    list-style: none ; 
+    gap: 2vw ;
+}
+
+
+.link {
+    padding: 0.5vw 1vw ;
+    font-size: 15px;
+    border-style: none ;
+    background: transparent ;
+    cursor: pointer ;
+    text-decoration: none ;
+    color: black ;
+}
+
+.link .material-icons-outlined {
+    display: none ;
+}
+
+.div-icons {
+    flex: 20% ;
+    display: flex ;
+    align-items: center ;
+    justify-content: right ;
+    height: 100% ;
+}
+
+.nav-icons ul {
+    display: flex ;
+    list-style: none ;
+    gap: 0.5vw ;
+}
+
+.link-icons {
+    padding: 1vw 2vw ;
+    background: transparent ;
+    border-style: none ;
+}
+
+.link-icons .material-icons-outlined {
+    font-size: 35px ;
+}
+
+.div-headerTwo {
+    width: 100% ;
+    height: 45% ;
+    background: #0039A6;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    display: flex ;
+}
+
+.one-int {
+    width: 90% ;
+    height: 100% ;
+    display: flex ;
+}
+
+.div-ctg {
+    flex: 40% ;
+    height: 100% ;
+    display: flex ;
+    align-items: center ;
+    justify-content: start ;
+    gap: 1vw ;
+}
+
+.button-ct {
+    align-items: center ;
+    justify-content: center ;
+    display: flex ;
+    background: transparent ;
+    border-style: none ;
+    cursor : pointer ;
+    
+}
+
+.button-ct .material-icons-outlined{
+    font-size: 35px;
+    color: white ;
+}
+
+.text-shop {
+    font-size: 15px;
+    font-weight: bolder ;
+    color: white ;
+}
+
+.div-call {
+    flex: 30% ;
+    height: 100% ;
+    align-items: center ;
+    display: flex ;
+    justify-content: right ;
+    gap: 5px;
+}
+
+.int-call .material-icons-outlined {
+    font-size: 35px;
+    color: white ;
+}
+
+.text-call {
+    font-size: 15px;
+    color: white ;
+    font-weight: bolder ;
+}
+
+.div-inputs {
+    flex: 30% ;
+    height: 100% ;
+    align-items: center ;
+    justify-content: right ;
+    display: flex ;
+}
+
+.inputs-items {
+    display: flex ;
+    width: 90%;
+    height: 60%;
+    background: white ;
+    border-radius: 30px;
+    gap: 1vw ;
+}
+
+.icon-search {
+    width: 20%;
+    height: 100% ;
+    align-items: center ;
+    justify-content: center ;
+    display: flex ;
+    background: transparent ;
+}
+
+.icon-search .material-icons-outlined {
+    background: #0039A6;
+    color: white ;
+    border-radius: 50% ;
+    font-size: 20px;
+    padding: 1vw ;
+}
+
+.input-src {
+    height: 100%;
+    width: 80% ;
+    background: transparent ;
+}
+
+ .input-src input {
+     height: 100% ;
+     width: 100% ;
+     outline: none ;
+     background: transparent ;
+     border-style: none ;
+ }
+ 
+ @media  (max-width: 768px) {
+     
+    .div-headerOne {
+        width: 100% ;
+        height: 50% ;
+    }
+    
+    .div-logo {
+        flex: 50% ;
+    }
+    
+    .div-logo img {
+        margin-left: -5% ;
+    }
+    
+    .div-call {
+        display: none ;
+    }
+    
+    .div-nav {
+        position: fixed ;
+        bottom: 0 ;
+        align-items: center ;
+        justify-content: center ;
+        display: flex ;
+        width: 100vw ;
+        height: 10vh ;
+        background: #0039A6;
+        left: 0 ;
+    }
+    
+    .navbar ul {
+        gap: 0.5vw ;
+    }
+    
+    .link {
+        display: flex ;
+        flex-direction: column-reverse ;
+        align-items: center ;
+        justify-content: center ;
+        width: 25vw ;
+        height: 8vh ;
+        overflow: hidden ;
+    }
+    
+    .text-link {
+        color: white ;
+        font-size: 13px ;
+        padding-top: 1vw ;
+    }
+    
+    .link .material-icons-outlined {
+        display: flex ;
+        color: white ;
+        font-size: 25px ;
+    }
+    
+    .div-headerTwo {
+        height: 50% ;
+    }
+    
+    .div-icons {
+        flex: 50% ;
+    }
+    
+    .link-icons .material-icons-outlined {
+        font-size: 30px ;
+        
+    }
+    
+    .one-int {
+        width: 95% ;
+    }
+    
+    .div-ctg {
+        flex: 30% ;
+    }
+    
+    .button-ct {
+        padding: 0.5vw ;
+    }
+    
+    .button-ct .material-icons-outlined {
+        font-size: 30px ;
+        
+    }
+    
+    .text-shop {
+        font-size: 14px ;
+    }
+    
+    .div-inputs {
+        flex: 70% ;
+    }
+ }
