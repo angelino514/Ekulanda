@@ -10,7 +10,7 @@ button , a {
 }
 
 header {
-    height: 15vh ;
+    height: 20vh ;
     width: 100vw ;
     align-items: center ;
     justify-content: center ;
@@ -197,7 +197,7 @@ header {
     color: white ;
     border-radius: 50% ;
     font-size: 20px;
-    padding: 1vw ;
+    padding: 0.5vw ;
 }
 
 .input-src {
@@ -215,6 +215,10 @@ header {
  }
  
  @media  (max-width: 768px) {
+    header {
+
+        height : 15vh;
+    }
      
     .div-headerOne {
         width: 100% ;
